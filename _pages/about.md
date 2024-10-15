@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
                             href="https://www2.deloitte.com/de/de.html" target="_blank"
                             rel="noopener noreferrer">Deloitte Analytics Institute</a>.</p>
 <p>You can find me on: <a href="https://twitter.com/karstanczak" target="_blank"
-                            rel="noopener noreferrer">Twitter</a>, <a href="https://github.com/kstanczak"
+                            rel="noopener noreferrer">Twitter</a>, <a href="https://github.com/karstanczak"
                             target="_blank" rel="noopener noreferrer">GitHub</a>, <a
                             href="https://www.linkedin.com/in/kstanczak/" target="_blank"
                             rel="noopener noreferrer">LinkedIn</a>.</p>
