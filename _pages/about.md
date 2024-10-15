@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://mila.quebec/en/directory/karolina-ewa-stanczak'>Mila, McGill University</a>. Montreal, Canada.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: stanczak_photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ <p> I am a Postdoctoral Researcher at the Quebec AI Institute and McGill University School of Computer Science. I have earned my PhD from the Department of Computer Science at the University of Copenhagen where I was supervised by Isabelle Augenstein and co-supervised by Ryan Cotterell at ETH Zurich. My thesis, titled ``A Multilingual Perspective on Probing Gender Bias,'' was awarded the SCIENCE Faculty's PhD Award for advancing innovative techniques to detect gender bias both in natural language and language models. Before starting my PhD, I’ve completed the MSc in Statistics at the Humboldt University of Berlin. Before that, I’ve obtained a Bachelor of Science in Economics also at the Humboldt University of Berlin.
+<p>My research interests encompass interpretability, multilinguality, and safety of large language models, with a focus on developing responsible and transparent AI systems in diverse, multicultural contexts.</p>
+<p>Besides, prior to starting my PhD I have worked as a data science consultant for <a
+                            href="https://www2.deloitte.com/de/de.html" target="_blank"
+                            rel="noopener noreferrer">Deloitte Analytics Institute</a>.</p>
+<p>You can find me on: <a href="https://twitter.com/karstanczak" target="_blank"
+                            rel="noopener noreferrer">Twitter</a>, <a href="https://github.com/kstanczak"
+                            target="_blank" rel="noopener noreferrer">GitHub</a>, <a
+                            href="https://www.linkedin.com/in/kstanczak/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a>.</p>
