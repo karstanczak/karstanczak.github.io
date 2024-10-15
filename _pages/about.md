@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://mila.quebec/en/directory/karolina-ewa-stanczak'>Mila, McGill University</a>. Montreal, Canada.
+subtitle: <a href="https://mila.quebec/en/directory/karolina-ewa-stanczak">Mila</a>, McGill University. Montreal, Canada.
 
 profile:
   align: right
