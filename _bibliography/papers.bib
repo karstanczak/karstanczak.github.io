@@ -4,28 +4,6 @@
 @string{aps = {American Physical Society,}}
 
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
 @article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
@@ -54,59 +32,6 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
-
 
 @inproceedings{nayak2024benchmarkingvisionlanguagemodels,
       title="Benchmarking Vision Language Models for Cultural Understanding", 
@@ -120,7 +45,13 @@
       pages = "5769--5790",
       preview = "culture_vqa_samples_new.pdf",
       selected={true},
-      abbr={EMNLP 2024}
+      abbr={EMNLP 2024},
+      bibtex_show={true},
+      pdf={2407.10920v3.pdf},
+      html={https://culturalvqa.org/},
+      google_scholar_id={4XT8OgEAAAAJ},
+      dimensions={true},
+      abstract={Foundation models and vision-language pre-training have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding - recognizing objects, attributes, and actions - rather than cultural comprehension. This study introduces CulturalVQA, a visual question-answering benchmark aimed at assessing VLM's geo-diverse cultural understanding. We curate a diverse collection of 2378 image - question pairs with 1-5 answers per question representing cultures from 11 countries across 5 continents. The questions probe understanding of various facets of culture such as clothing, food, drinks, rituals, and traditions. Benchmarking VLMs on CulturalVQA, including GPT-4V and Gemini, reveals disparity in their level of cultural understanding across regions, with strong cultural understanding capabilities for North America while significantly weaker capabilities for Africa. We observe disparity in their performance across cultural facets too, with clothing, rituals, and traditions seeing higher performances than food and drink. These disparities help us identify areas where VLMs lack cultural understanding and demonstrate the potential of CulturalVQA as a comprehensive evaluation set for gauging VLM progress in understanding diverse cultures.}
 }
 
 
@@ -134,6 +65,7 @@
     publisher = "MIT Press",
     selected={true},
     abbr={TACL},
+    bibtex_show={true},
 }
 
 @inproceedings{stanczak-etal-2022-neuron,
@@ -153,12 +85,14 @@
     pages = "1589--1598",
     selected={true},
     abbr={NAACL 2022},
+    bibtex_show={true},
+    video={https://www.youtube.com/watch?v=0kjRevEvX5w},
     }
 
 @inproceedings{marchiori-manerba-etal-2024-social,
     title = "Social Bias Probing: Fairness Benchmarking for Language Models",
-    author = "Marchiori Manerba, Marta  and
-     Karolina Stańczak  and
+    author = "Marchiori Manerba, Marta*  and
+     Karolina Stańczak*  and
       Guidotti, Riccardo  and
       Augenstein, Isabelle",
     shorthand = "EMNLP'24a",
@@ -173,6 +107,8 @@
     author+an = {2=highlight},
     selected={true},
     abbr={EMNLP 2024},
+    bibtex_show={true},
+    annotation={* Equal contribution},
 }
 
 @article{marjanovic2022quantifying,
@@ -189,6 +125,7 @@
     abstract = {Despite attempts to increase gender parity in politics, global efforts have struggled to ensure equal female representation. This is likely tied to implicit gender biases against women in authority. In this work, we present a comprehensive study of gender biases that appear in online political discussion. To this end, we collect 10 million comments on Reddit in conversations about male and female politicians, which enables an exhaustive study of automatic gender bias detection. We address not only misogynistic language, but also other manifestations of bias, like benevolent sexism in the form of seemingly positive sentiment and dominance attributed to female politicians, or differences in descriptor attribution. Finally, we conduct a multi-faceted study of gender bias towards politicians investigating both linguistic and extra-linguistic cues. We assess 5 different types of gender bias, evaluating coverage, combinatorial, nominal, sentimental and lexical biases extant in social media language and discourse. Overall, we find that, contrary to previous research, coverage and sentiment biases suggest equal public interest in female politicians. Rather than overt hostile or benevolent sexism, the results of the nominal and lexical analyses suggest this interest is not as professional or respectful as that expressed about male politicians. Female politicians are often named by their first names and are described in relation to their body, clothing, or family; this is a treatment that is not similarly extended to men. On the now banned far-right subreddits, this disparity is greatest, though differences in gender biases still appear in the right and left-leaning subreddits. We release the curated dataset to the public for future studies.},
     number = {10},
     abbr={PLOS ONE},
+    bibtex_show={true},
 
 }
 
@@ -206,6 +143,7 @@
     url = "https://aclanthology.org/2023.bsnlp-1.17",
     pages = "146--154",
     abbr={SlavicNLP @ EACL 2023},
+    bibtex_show={true},
     abstract = "Pre-trained language models have been known to perpetuate biases from the underlying datasets to downstream tasks. However, these findings are predominantly based on monolingual language models for English, whereas there are few investigative studies of biases encoded in language models for languages beyond English. In this paper, we fill this gap by analysing gender bias in West Slavic language models. We introduce the first template-based dataset in Czech, Polish, and Slovak for measuring gender bias towards male, female and non-binary subjects. We complete the sentences using both mono- and multilingual language models and assess their suitability for the masked language modelling objective. Next, we measure gender bias encoded in West Slavic language models by quantifying the toxicity and genderness of the generated words. We find that these language models produce hurtful completions that depend on the subject{'}s gender. Perhaps surprisingly, Czech, Slovak, and Polish language models produce more hurtful completions with men as subjects, which, upon inspection, we find is due to completions being related to violence, death, and sickness.",
 }
 
@@ -226,6 +164,7 @@
     url = "https://aclanthology.org/2023.findings-acl.170",
     pages = "2711--2730",
     abbr={ACL 2023},
+    bibtex_show={true},
     abstract = "Data-driven analyses of biases in historical texts can help illuminate the origin and development of biases prevailing in modern society. However, digitised historical documents pose a challenge for NLP practitioners as these corpora suffer from errors introduced by optical character recognition (OCR) and are written in an archaic language. In this paper, we investigate the continuities and transformations of bias in historical newspapers published in the Caribbean during the colonial era (18th to 19th centuries). Our analyses are performed along the axes of gender, race, and their intersection. We examine these biases by conducting a temporal study in which we measure the development of lexical associations using distributional semantics models and word embeddings. Further, we evaluate the effectiveness of techniques designed to process OCR-generated data and assess their stability when trained on and applied to the noisy historical newspapers. We find that there is a trade-off between the stability of the word embeddings and their compatibility with the historical dataset. We provide evidence that gender and racial biases are interdependent, and their intersection triggers distinct effects. These findings align with the theory of intersectionality, which stresses that biases affecting people with multiple marginalised identities compound to more than the sum of their constituents.",
 }
 
@@ -239,6 +178,7 @@ journal={Proceedings of the AAAI Conference on Artificial Intelligence},
 author={ Karolina Stańczak and Torroba Hennigen, Lucas and Williams, Adina and Cotterell, Ryan and Augenstein, Isabelle}, 
 year={2023}, month={Jun.}, 
 pages={13591-13599},
+bibtex_show={true},
 abbr={AAAI 2023},
 }
 
@@ -254,6 +194,7 @@ abbr={AAAI 2023},
   journal = {arXiv:2112.14168 [cs]},
   keywords = {Computer Science - Computation and Language},
   primaryClass = {cs},
+  bibtex_show={true},
   abbr={arXiv 2021},
 }
 
@@ -271,6 +212,7 @@ abbr={AAAI 2023},
      copyright = {arXiv.org perpetual, non-exclusive license},
      journal = {arXiv:2311.17627 [cs]},
      abbr={arXiv 2023},
+     bibtex_show={true},
 }
 
 
@@ -288,5 +230,5 @@ abbr={AAAI 2023},
     abstract = {Recent research has demonstrated that large pre-trained language models reflect societal biases expressed in natural language. The present paper introduces a simple method for probing language models to conduct a multilingual study of gender bias towards politicians. We quantify the usage of adjectives and verbs generated by language models surrounding the names of politicians as a function of their gender. To this end, we curate a dataset of 250k politicians worldwide, including their names and gender. Our study is conducted in seven languages across six different language modeling architectures. The results demonstrate that pre-trained language models’ stance towards politicians varies strongly across analyzed languages. We find that while some words such as dead, and designated are associated with both male and female politicians, a few specific words such as beautiful and divorced are predominantly associated with female politicians. Finally, and contrary to previous findings, our study suggests that larger language models do not tend to be significantly more gender-biased than smaller ones.},
     number = {11},
     abbr={PLOS ONE},
-
+    bibtex_show={true},
 }
