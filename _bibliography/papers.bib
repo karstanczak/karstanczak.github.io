@@ -115,13 +115,160 @@
 }
 
 
-@article{nayak2024benchmarkingvisionlanguagemodels,
-      title={Benchmarking Vision Language Models for Cultural Understanding}, 
-      author={Shravan Nayak and Kanishk Jain and Rabiul Awal and Siva Reddy and Sjoerd van Steenkiste and Lisa Anne Hendricks and Karolina Stańczak and Aishwarya Agrawal},
-      year={2024},
-      eprint={2407.10920},
+@inproceedings{nayak2024benchmarkingvisionlanguagemodels,
+      title="Benchmarking Vision Language Models for Cultural Understanding", 
+      author="Shravan Nayak and Kanishk Jain and Rabiul Awal and Siva Reddy and Sjoerd van Steenkiste and Lisa Anne Hendricks and Karolina Stańczak and Aishwarya Agrawal",
+      booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      month = nov,
+      year = "2024",
+      address = "Miami, Florida, USA",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2024.emnlp-main.329",
+      pages = "5769--5790",
+      preview = "culture_vqa_samples_new.pdf"
+}
+
+
+@article{stanczak2023grammatical,
+    author    = { Karolina Stańczak and Kevin Du and Adina Williams and Isabelle Augenstein and Ryan Cotterell},
+    title     = {The Causal Influence of Grammatical Gender on Distributional Semantics},
+    year = "2024",
+    shorthand = "TACL",
+    journal = "Transactions of the Association for Computational Linguistics",
+    url={https://arxiv.org/abs/2311.18567},
+    publisher = "MIT Press",
+}
+
+@inproceedings{stanczak-etal-2022-neuron,
+    title = "Same Neurons, Different Languages: Probing Morphosyntax in Multilingual Pre-trained Models",
+    author = "Karolina Stańczak  and
+      Ponti, Edoardo  and
+      Torroba Hennigen, Lucas  and
+      Cotterell, Ryan  and
+      Augenstein, Isabelle",
+    shorthand = "NAACL'22",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.114",
+    pages = "1589--1598",
+    }
+
+@inproceedings{marchiori-manerba-etal-2024-social,
+    title = "Social Bias Probing: Fairness Benchmarking for Language Models",
+    author = "Marchiori Manerba, Marta  and
+     Karolina Stańczak  and
+      Guidotti, Riccardo  and
+      Augenstein, Isabelle",
+    shorthand = "EMNLP'24a",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.812",
+    pages = "14653--14671",
+    abstract = "While the impact of social biases in language models has been recognized, prior methods for bias evaluation have been limited to binary association tests on small datasets, limiting our understanding of bias complexities. This paper proposes a novel framework for probing language models for social biases by assessing disparate treatment, which involves treating individuals differently according to their affiliation with a sensitive demographic group. We curate SoFa, a large-scale benchmark designed to address the limitations of existing fairness collections. SoFa expands the analysis beyond the binary comparison of stereotypical versus anti-stereotypical identities to include a diverse range of identities and stereotypes. Comparing our methodology with existing benchmarks, we reveal that biases within language models are more nuanced than acknowledged, indicating a broader scope of encoded biases than previously recognized. Benchmarking LMs on SoFa, we expose how identities expressing different religions lead to the most pronounced disparate treatments across all models. Finally, our findings indicate that real-life adversities faced by various groups such as women and people with disabilities are mirrored in the behavior of these models.",
+    author+an = {2=highlight},
+}
+
+@article{marjanovic2022quantifying,
+    author = {Marjanovic, Sara AND Karolina Stańczak AND Augenstein, Isabelle},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Quantifying gender biases towards politicians on Reddit},
+    shorthand = {PLOS One 17},
+    year = {2022},
+    month = {10},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pone.0274317},
+    pages = {1-36},
+    abstract = {Despite attempts to increase gender parity in politics, global efforts have struggled to ensure equal female representation. This is likely tied to implicit gender biases against women in authority. In this work, we present a comprehensive study of gender biases that appear in online political discussion. To this end, we collect 10 million comments on Reddit in conversations about male and female politicians, which enables an exhaustive study of automatic gender bias detection. We address not only misogynistic language, but also other manifestations of bias, like benevolent sexism in the form of seemingly positive sentiment and dominance attributed to female politicians, or differences in descriptor attribution. Finally, we conduct a multi-faceted study of gender bias towards politicians investigating both linguistic and extra-linguistic cues. We assess 5 different types of gender bias, evaluating coverage, combinatorial, nominal, sentimental and lexical biases extant in social media language and discourse. Overall, we find that, contrary to previous research, coverage and sentiment biases suggest equal public interest in female politicians. Rather than overt hostile or benevolent sexism, the results of the nominal and lexical analyses suggest this interest is not as professional or respectful as that expressed about male politicians. Female politicians are often named by their first names and are described in relation to their body, clothing, or family; this is a treatment that is not similarly extended to men. On the now banned far-right subreddits, this disparity is greatest, though differences in gender biases still appear in the right and left-leaning subreddits. We release the curated dataset to the public for future studies.},
+    number = {10},
+
+}
+
+@inproceedings{martinkova-etal-2023-measuring,
+    title = "Measuring Gender Bias in {W}est {S}lavic Language Models",
+    author = "Martinkov{\'a}, Sandra  and
+      Karolina Stańczak  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the 9th Workshop on Slavic Natural Language Processing 2023 (SlavicNLP 2023)",
+    shorthand = "SlavicNLP@EACL'23",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.bsnlp-1.17",
+    pages = "146--154",
+    abstract = "Pre-trained language models have been known to perpetuate biases from the underlying datasets to downstream tasks. However, these findings are predominantly based on monolingual language models for English, whereas there are few investigative studies of biases encoded in language models for languages beyond English. In this paper, we fill this gap by analysing gender bias in West Slavic language models. We introduce the first template-based dataset in Czech, Polish, and Slovak for measuring gender bias towards male, female and non-binary subjects. We complete the sentences using both mono- and multilingual language models and assess their suitability for the masked language modelling objective. Next, we measure gender bias encoded in West Slavic language models by quantifying the toxicity and genderness of the generated words. We find that these language models produce hurtful completions that depend on the subject{'}s gender. Perhaps surprisingly, Czech, Slovak, and Polish language models produce more hurtful completions with men as subjects, which, upon inspection, we find is due to completions being related to violence, death, and sickness.",
+}
+
+@inproceedings{borenstein-etal-2023-measuring,
+    title = "Measuring Intersectional Biases in Historical Documents",
+    author = {Borenstein, Nadav  and
+      Karolina Stańczak  and
+      Rolskov, Thea  and
+      Klein K{\"a}fer, Natacha  and
+      da Silva Perez, Nat{\'a}lia  and
+      Augenstein, Isabelle},
+    shorthand = "ACL'23",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.170",
+    pages = "2711--2730",
+    abstract = "Data-driven analyses of biases in historical texts can help illuminate the origin and development of biases prevailing in modern society. However, digitised historical documents pose a challenge for NLP practitioners as these corpora suffer from errors introduced by optical character recognition (OCR) and are written in an archaic language. In this paper, we investigate the continuities and transformations of bias in historical newspapers published in the Caribbean during the colonial era (18th to 19th centuries). Our analyses are performed along the axes of gender, race, and their intersection. We examine these biases by conducting a temporal study in which we measure the development of lexical associations using distributional semantics models and word embeddings. Further, we evaluate the effectiveness of techniques designed to process OCR-generated data and assess their stability when trained on and applied to the noisy historical newspapers. We find that there is a trade-off between the stability of the word embeddings and their compatibility with the historical dataset. We provide evidence that gender and racial biases are interdependent, and their intersection triggers distinct effects. These findings align with the theory of intersectionality, which stresses that biases affecting people with multiple marginalised identities compound to more than the sum of their constituents.",
+}
+
+@article{stanczak2023latent, title={A Latent-Variable Model for Intrinsic Probing}, volume={37}, url={https://ojs.aaai.org/index.php/AAAI/article/view/26593}, number={11}, shorthand = "AAAI'23", journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={ Karolina Stańczak and Torroba Hennigen, Lucas and Williams, Adina and Cotterell, Ryan and Augenstein, Isabelle}, year={2023}, month={Jun.}, pages={13591-13599} }
+
+@article{stanczak-etal-2021-survey,
+  url = {https://arxiv.org/abs/2112.14168},
+  author = { Karolina Stańczak and Augenstein, Isabelle},
+  shorthand = "arXiv'21",
+  keywords = {Computation and Language (cs.CL), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {A Survey on Gender Bias in Natural Language Processing},
+  publisher = {arXiv},
+  year = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  journal = {arXiv:2112.14168 [cs]},
+  keywords = {Computer Science - Computation and Language},
+  primaryClass = {cs}
+}
+
+
+@article{golovchenko,
+      title={Invisible Women in Digital Diplomacy: A Multidimensional Framework for Online Gender Bias Against Women Ambassadors Worldwide}, 
+      author={Golovchenko, Yevgeniy and Karolina Stańczak and Adler-Nissen, Rebecca and Wangen, Patri-ce and Augenstein, Isabelle},
+      shorthand = "arXiv'23",
+      year={2023},
+      eprint={2311.17627},
       archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.10920},
-      selected={true} 
+      primaryClass={cs.SI},
+      url = {https://arxiv.org/abs/2311.17627},
+      publisher = {arXiv},
+     copyright = {arXiv.org perpetual, non-exclusive license},
+     journal = {arXiv:2311.17627 [cs]},
+}
+
+
+@article{stanczak2021quantifying,
+    author = { Karolina Stańczak AND Ray Choudhury, Sagnik AND Pimentel, Tiago AND Cotterell, Ryan AND Augenstein, Isabelle},
+    journal = {PLOS ONE},
+    shorthand = "PLOS One 18",
+    publisher = {Public Library of Science},
+    title = {Quantifying gender bias towards politicians in cross-lingual language models},
+    year = {2023},
+    month = {11},
+    volume = {18},
+    url = {https://doi.org/10.1371/journal.pone.0277640},
+    pages = {1-24},
+    abstract = {Recent research has demonstrated that large pre-trained language models reflect societal biases expressed in natural language. The present paper introduces a simple method for probing language models to conduct a multilingual study of gender bias towards politicians. We quantify the usage of adjectives and verbs generated by language models surrounding the names of politicians as a function of their gender. To this end, we curate a dataset of 250k politicians worldwide, including their names and gender. Our study is conducted in seven languages across six different language modeling architectures. The results demonstrate that pre-trained language models’ stance towards politicians varies strongly across analyzed languages. We find that while some words such as dead, and designated are associated with both male and female politicians, a few specific words such as beautiful and divorced are predominantly associated with female politicians. Finally, and contrary to previous findings, our study suggests that larger language models do not tend to be significantly more gender-biased than smaller ones.},
+    number = {11},
+
 }
