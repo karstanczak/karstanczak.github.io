@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined ETH AI Center as a Postdoctoral Fellow.
+I joined the [ETH AI Center](https://ai.ethz.ch/) in Zurich as a Postdoctoral Fellow.
